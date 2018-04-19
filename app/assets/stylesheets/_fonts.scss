@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Akzidenz Grotesk';
+    src: url('./fonts/AkzidenzGrotesk-Roman.woff2') format('woff2'),
+        url('./fonts/AkzidenzGrotesk-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk';
+    src: url('./fonts/AkzidenzGrotesk-Light.woff2') format('woff2'),
+        url('./fonts/AkzidenzGrotesk-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzidenz Grotesk';
+    src: url('./fonts/AkzidenzGrotesk-Black.woff2') format('woff2'),
+        url('./fonts/AkzidenzGrotesk-Black.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
