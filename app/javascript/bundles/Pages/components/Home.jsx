@@ -18,6 +18,9 @@ export default class Pages extends React.Component {
             <section>
                 <div className="home-content-left">
                     <h2>I use</h2>
+                    <ul>
+                        <li></li>
+                    </ul>
                 </div>
             </section>
         );

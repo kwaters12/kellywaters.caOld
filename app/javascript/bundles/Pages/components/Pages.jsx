@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import Header from './Header';
+import Menu from './Menu';
 import Home from './Home';
 
 export default class Pages extends React.Component {
@@ -23,6 +24,7 @@ export default class Pages extends React.Component {
         return (
             <div>
                 <Header />
+                <Menu screenVisible={this.state.screenVisible}/>
                 <Home />
                 {/* <h3>
                     Hello, {this.state.name}!

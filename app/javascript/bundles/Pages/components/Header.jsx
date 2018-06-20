@@ -1,9 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import Header from './Header';
-import Home from './Home';
 
-export default class Pages extends React.Component {
+export default class Header extends React.Component {
     /**
      * @param props - Comes from your rails view.
      */
